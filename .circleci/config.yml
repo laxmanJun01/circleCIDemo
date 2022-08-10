@@ -17,7 +17,7 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
-jobs:          
+
   runner-test:
     machine: true
     resource_class: laxmanjun01/changi3
@@ -30,6 +30,4 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-  runner-test-workflow:
-    jobs:
       - runner-test
