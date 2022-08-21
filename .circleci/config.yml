@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   runner-test:
     machine: true
-    resource_class: laxmanjun01/changiapp3
+    resource_class: laxmanjun01/fpt_changiapp
     steps:
       - run: echo "Hi I'm on Runner 2"
       
